@@ -1,0 +1,11 @@
+வணக்கம், எப்படி இருக்கிறீர்கள்?
+Hello, how are you?
+
+நான் தமிழ் பேசுகிறேன்.
+I speak Tamil.
+
+இந்த மென்பொருள் அருமையாக இருக்கிறது!
+This software is amazing!
+
+நாளை சந்திப்போம்.
+See you tomorrow.
