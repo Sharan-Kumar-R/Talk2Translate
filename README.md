@@ -24,7 +24,9 @@ A real-time speech translation application that converts spoken English to Tamil
 
 The application provides a user-friendly graphical interface for real-time voice translation:
 
-![Talk2Translate Interface](https://github.com/Sharan-Kumar-R/Talk2Translate/blob/main/Talk2Translate.png)
+<p align="center">
+  <img src="https://github.com/Sharan-Kumar-R/Talk2Translate/blob/main/Talk2Translate.png" alt="Talk2Translate Interface" width="600">
+</p>
 
 ##  Prerequisites
 
@@ -170,6 +172,7 @@ In case of any queries, please leave a message or contact me via the email provi
 <p align="center">
 ⭐ <strong>Star this repository if you found it helpful!</strong>
 </p>
+
 
 
 
