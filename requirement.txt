@@ -1,6 +1,6 @@
-customtkinter==6.6.2
-SpeechRecognition==1.29.0
-deep-translator==1.12.7
-gTTS==2.3.2
-pygame==2.5.2
-PyAudio==0.2.13
+customtkinter
+SpeechRecognition
+deep-translator
+gTTS
+pygame
+PyAudio
