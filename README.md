@@ -16,6 +16,7 @@ A real-time speech translation application that converts spoken English to Tamil
 -  Speak in English or Tamil and get instant translation.
 -  Automatic bidirectional translation (English ↔ Tamil).
 -  Listen to the translated speech output.
+-  Save Translations - Store your translations to a local file
 -  Clean, modern UI using CustomTkinter.
 -  Threaded processing for smooth performance.
 
@@ -97,6 +98,7 @@ Talk2Translate/
 │
 ├── Bilingual.py          # Main application file
 ├── requirements.txt       # Python dependencies
+├── translations.txt       # Saved translations (auto-generated)
 └── README.md              # This file
 ```
 
@@ -113,6 +115,7 @@ In case of any queries, please leave a message or contact me via the email provi
 <p align="center">
 ⭐ <strong>Star this repository if you found it helpful!</strong>
 </p>
+
 
 
 
