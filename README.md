@@ -30,39 +30,98 @@ Before running this application, ensure you have:
 - Internet connection (required for speech recognition and translation APIs)
 - Audio output device for playback
   
-##  Installation
+## Installation
 
-1.  **Clone the repository (or download the script):**
-    ```bash
-    git clone https://github.com/Sharan-Kumar-R/Talk2Translate.git
-    cd Talk2Translate
-    ```
+### Step 1: Clone the Repository
 
-2.  **Create a virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+**Option A: Using VS Code Terminal**
+1. Open Visual Studio Code
+2. Open a new terminal (Terminal → New Terminal or `Ctrl+Shift+``)
+3. Navigate to your desired directory:
+```bash
+   cd path/to/your/desired/folder
+```
+4. Clone the repository:
+```bash
+   git clone https://github.com/Sharan-Kumar-R/Talk2Translate.git
+```
+5. Open the project folder:
+```bash
+   cd Talk2Translate
+```
+6. Open the project in VS Code:
+```bash
+   code .
+```
 
-3.  **Install the required Python packages:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    If you don't have a `requirements.txt` file, you can create one or install them individually:
-    ```bash
-    pip install customtkinter SpeechRecognition deep-translator gTTS pygame
-    ```
+**Option B: Using VS Code Git Integration**
+1. Open Visual Studio Code
+2. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
+3. Type "Git: Clone" and select it
+4. Paste the repository URL: `https://github.com/Sharan-Kumar-R/Talk2Translate.git`
+5. Choose a folder location and click "Select Repository Location"
+6. Click "Open" when prompted
 
-4.  **Install PortAudio:** `SpeechRecognition`'s `PyAudio` dependency (which is used for microphone input) requires PortAudio.
-    *   **On macOS:**
-        ```bash
-        brew install portaudio
-        ```
-    *   **On Windows:** Download pre-compiled wheels for `PyAudio` from [Unofficial Windows Binaries for Python Extension Packages](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) (search for PyAudio) and install using pip, e.g., `pip install PyAudio-0.2.11-cp39-cp39-win_amd64.whl`. Alternatively, you might need to install C++ build tools for Visual Studio.
-    *   **On Linux (Debian/Ubuntu):**
-        ```bash
-        sudo apt-get install portaudio19-dev python3-pyaudio
-        ```
+### Step 2: Create a Virtual Environment (Recommended)
+
+1. In the VS Code terminal, create a virtual environment:
+```bash
+   python -m venv venv
+```
+
+2. Activate the virtual environment:
+   - **Windows:**
+```bash
+     venv\Scripts\activate
+```
+   - **macOS/Linux:**
+```bash
+     source venv/bin/activate
+```
+
+### Step 3: Install Python Dependencies
+
+Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+
+If you don't have a `requirements.txt` file, install packages individually:
+```bash
+pip install customtkinter SpeechRecognition deep-translator gTTS pygame
+```
+
+### Step 4: Install PortAudio (Required for Microphone Input)
+
+The `SpeechRecognition` library requires PortAudio for microphone functionality.
+
+**macOS:**
+```bash
+brew install portaudio
+```
+
+**Windows:**
+1. Download the appropriate PyAudio wheel file from [Unofficial Windows Binaries](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio)
+2. Install using pip:
+```bash
+   pip install PyAudio-0.2.11-cp39-cp39-win_amd64.whl
+```
+   *(Replace the filename with your downloaded version)*
+
+Alternatively, install Microsoft C++ Build Tools if needed.
+
+**Linux (Debian/Ubuntu):**
+```bash
+sudo apt-get install portaudio19-dev python3-pyaudio
+```
+
+### Step 5: Run the Application
+
+Once installation is complete, run the application:
+```bash
+python main.py
+```
+*(Replace `main.py` with your actual script filename)*
 
 ##  Usage
 
@@ -115,6 +174,7 @@ In case of any queries, please leave a message or contact me via the email provi
 <p align="center">
 ⭐ <strong>Star this repository if you found it helpful!</strong>
 </p>
+
 
 
 
