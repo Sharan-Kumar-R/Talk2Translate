@@ -35,7 +35,7 @@ Before running this application, ensure you have:
 1.  **Clone the repository (or download the script):**
     ```bash
     git clone https://github.com/Sharan-Kumar-R/Talk2Translate.git
-    cd speech-translator
+    cd Talk2Translate
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -115,6 +115,7 @@ In case of any queries, please leave a message or contact me via the email provi
 <p align="center">
 ⭐ <strong>Star this repository if you found it helpful!</strong>
 </p>
+
 
 
 
