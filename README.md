@@ -106,7 +106,6 @@ brew install portaudio
 ```bash
    pip install PyAudio-0.2.11-cp39-cp39-win_amd64.whl
 ```
-   *(Replace the filename with your downloaded version)*
 
 Alternatively, install Microsoft C++ Build Tools if needed.
 
@@ -114,14 +113,6 @@ Alternatively, install Microsoft C++ Build Tools if needed.
 ```bash
 sudo apt-get install portaudio19-dev python3-pyaudio
 ```
-
-### Step 5: Run the Application
-
-Once installation is complete, run the application:
-```bash
-python main.py
-```
-*(Replace `main.py` with your actual script filename)*
 
 ##  Usage
 
@@ -174,6 +165,7 @@ In case of any queries, please leave a message or contact me via the email provi
 <p align="center">
 ⭐ <strong>Star this repository if you found it helpful!</strong>
 </p>
+
 
 
 
