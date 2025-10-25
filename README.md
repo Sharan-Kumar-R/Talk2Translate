@@ -228,6 +228,7 @@ Talk2Translate/
 │
 ├── Bilingual.py          # Main application file (uses google transkator)
 ├── Bilingualllm.py       # Main application file (uses local llm)
+├── Talk2Translate.png    # Demo image
 ├── requirements.txt      # Python dependencies
 ├── translations.txt      # Saved translations (auto-generated)
 └── README.md             # This file
@@ -248,6 +249,7 @@ In case of any queries, please leave a message or contact me via the email provi
 <p align="center">
 ⭐ <strong>Star this repository if you found it helpful!</strong>
 </p>
+
 
 
 
